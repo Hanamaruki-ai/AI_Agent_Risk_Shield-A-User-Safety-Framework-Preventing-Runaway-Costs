@@ -3,6 +3,10 @@ A bilingual safety framework protecting users from runaway AI agents, token expl
 
 ---
 
+<img width="1080" height="1080" alt="SNS用添付画像作成" src="https://github.com/user-attachments/assets/93e26373-2c62-4875-8e87-16b2fa254c9b" />
+
+---
+
 🔔 【警鐘（けいしょう）｜Public Safety Warning】
 日本語（JP）
 
