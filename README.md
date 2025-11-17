@@ -450,8 +450,9 @@ of the hypothetical simulation described in this report.
 
 The Appendix is included as an MD file inside the downloadable ZIP archive:
 
-➡ **[AgentMode_Risk_Appendix_A.zip](./Appendix.zip)**  
-➡ **[View_Appendix_A](./Docs/Appendix/Appendix.md)**
+➡ **[AgentMode_Risk_Appendix_A.zip]*
+*  
+➡ **[View_Appendix.md**
 
 （日本語訳）
 
