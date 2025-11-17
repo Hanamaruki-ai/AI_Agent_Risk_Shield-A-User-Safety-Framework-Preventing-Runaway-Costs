@@ -438,3 +438,219 @@ not as criticism toward any company or product.
 Source:
 “AI-Agent User Safety Advisory (2025)”
 (Hanamaruki / SOVOS Repository)
+
+---
+
+---
+
+## 📎 Appendix / Raw Output (Bilingual)
+
+This repository includes an Appendix containing a **bilingual (JP/EN)** neutral reconstruction  
+of the hypothetical simulation described in this report.
+
+The Appendix is included as an MD file inside the downloadable ZIP archive:
+
+➡ **[AgentMode_Risk_Appendix_A.zip](./Appendix.zip)**  
+➡ **[View_Appendix_A](./Docs/Appendix/Appendix.md)**
+
+（日本語訳）
+
+このリポジトリには、本レポート内で言及されたシミュレーションの  
+**中立的なバイリンガル再構成（日本語＋英語）** を含む Appendix が格納されています。
+
+Appendix の内容は ZIP 内に含まれる MD ファイルで参照できます。
+
+---
+
+📘 Appendix A：Independent Risk Simulation
+Summary of a Non-Deterministic, Hypothetical Agent-Mode Cost Escalation Scenario
+
+(This section provides an independent simulation model.
+It is NOT a prediction, NOT a claim, and NOT a statement about any specific company.)
+
+1. Purpose of This Simulation
+
+This appendix summarizes an independent, hypothetical simulation examining how autonomous Agent-Mode behavior could escalate costs when combined with unrestricted API usage.
+
+The intent is not to criticize any company or platform, but to provide a technical reference model that helps developers, enterprises, and users understand potential systemic risks.
+
+2. Scope and Assumptions
+
+This simulation:
+
+Does not reference internal data from any AI provider.
+
+Does not represent real billing logs.
+
+Uses generalized market API pricing as a baseline reference.
+
+Models adverse outcomes only to reveal potential systemic vulnerabilities.
+
+Represents middle-range estimates, not minimum or maximum cases.
+
+These values are strictly illustrative and intended for risk-assessment research only.
+
+3. Key Insights (Neutral Summary)
+(1) Exponential API Call Multiplication
+
+Autonomous Agents may chain tasks recursively based on optimization logic, causing:
+
+Multi-step search expansions
+
+Unbounded data-gathering loops
+
+Parallel task spawning
+
+Self-initiated “verification cycles”
+
+This results in API calls scaling non-linearly, diverging from user expectations.
+
+(2) Cost Escalation Without User Awareness
+
+In real-world environments without enterprise-grade safety rails:
+
+User-facing dashboards often update delayed
+
+Request batching hides the underlying call volume
+
+Users cannot detect runaway execution until charges finalize
+
+This gap creates a high-risk blind zone for non-technical users.
+
+(3) Systemic Impact Under Widespread Adoption
+
+If a large number of users trigger similar runaway patterns:
+
+Cloud billing shocks
+
+Trust erosion in AI ecosystems
+
+Potential regulatory intervention
+
+Mass user loss for affected platforms
+
+These impacts extend beyond individuals to the entire ecosystem.
+
+4. Representative Simulation Output (Abstracted)
+
+Below is a neutralized abstraction of the independent simulation originally computed by a large-scale model:
+- Duration analyzed: 24 hours (simulated)
+- Requests initiated by the user: 1
+- Autonomous expansions: 42 → 380 → 1,420 → 8,550 requests
+- Secondary verification cycles: +24,800 requests
+- Total computed calls: ~34,000
+- Hypothetical cost (generic API pricing):  
+    Approx. $1,240 – $4,900 (USD) range
+This range is not tied to any specific API, but demonstrates how
+“one innocent action” → “unbounded recursive executions”
+can form under certain Agent-Mode architectures.
+
+5. Disclaimer
+
+This simulation:
+
+is not predictive、
+
+does not indicate a flaw in any specific vendor、
+
+and must not be interpreted as real-world evidence of actual failures.
+
+The goal is awareness and preventive engineering, not criticism.
+
+---
+
+📙 付録A：独立リスクシミュレーション
+エージェントモードの自律行動によるコスト暴走の、架空モデルによる中立シミュレーション概要
+
+（※ 本節は特定企業・特定プラットフォームへの批判ではありません）
+
+1. 本シミュレーションの目的
+
+本付録は、エージェントモードが API にアクセスできる状態で、
+「どのようにしてコストが暴走しうるのか」 を確認するために構築した
+完全に独立・仮想的なシミュレーションモデル です。
+
+意図はあくまで ユーザー保護と技術的透明性の提供 であり、
+企業批判や予測を行うものではありません。
+
+2. 範囲と前提条件
+
+このシミュレーションは：
+
+どの企業の内部データも使用していません
+
+実際の課金ログではありません
+
+市場に公開されている「一般的なAPI価格帯」を参照した仮想値です
+
+最小値でも最大値でもなく「中間的なケース」を採用
+
+リスク研究のための学術的参照モデルです
+
+3. 重要なポイント（中立要約）
+（1）API 呼び出しの指数関数的増殖
+
+自律エージェントは、最適化過程で：
+
+多段階タスク生成
+
+検証ループ
+
+並列実行
+
+追加データ検索
+
+を繰り返す傾向があり、API コールが 非線形的に増加 します。
+
+（2）利用者の気付けないコスト膨張
+
+非エンタープライズ環境では特に：
+
+請求ダッシュボードの反映が遅い
+
+バッチ化で裏側のAPI量が見えない
+
+暴走が発生してもユーザー自身が検知不能
+
+という「死角」が存在します。
+
+（3）広域的な影響の可能性
+
+もし多数のユーザーで同様の暴走が発生すると：
+
+高額請求トラブル
+
+AI プラットフォームへの信頼崩壊
+
+規制問題
+
+顧客離れによる企業損失
+
+といった 社会的インパクト が発生し得ます。
+
+4. 代表的なシミュレーション結果（抽象化）
+
+以下は、もとのシミュレーション結果を中立化したサマリーです： 
+- 想定時間：24時間
+- ユーザーの初期指示：1回
+- 自律展開：42 → 380 → 1,420 → 8,550回
+- 二次検証ループ：＋24,800回
+- 総APIコール：約34,000回
+- 想定コスト（一般価格帯）：  
+    約 1.2万円 ～ 7.8万円（日本円換算）
+これは実際の請求ではなく、
+「概念的に起こり得る挙動パターン」 の提示にすぎません。
+
+5. 免責事項
+
+このシミュレーションは：
+
+未来予測ではありません
+
+特定企業・特定APIの欠陥指摘ではありません
+
+リスク理解のための概念モデルです
+
+目的はあくまで ユーザー保護と透明性の担保 です。[Appendix.md](https://github.com/user-attachments/files/23575755/Appendix.md)
+
+
