@@ -29,6 +29,32 @@ so that global users can protect themselves responsibly.
 
 ---
 
+---
+
+### What does "API" actually mean?
+
+API = Application Programming Interface.
+
+It was originally designed as an offline mechanism for software-to-software
+communication — not as a real-time, internet-based user interface.
+
+Because additional layers (HTTP API, UI/Agents) were stacked on top of an
+offline architecture, instability and runaway billing became structural issues.
+
+---
+
+### API とは何か？
+
+API = Application Programming Interface の略。
+
+本来は「アプリケーションをプログラムで操作するための窓口」であり、
+インターネット越しのリアルタイムUIとして使う設計ではなかった。
+
+そのため、後付けで HTTP API や UI/Agent が追加された結果、
+構造的に不安定さや暴走課金が発生するようになった。
+
+---
+
 🟦 【背景と経緯｜Background & Motivation】
 🔔 “なぜこのリポジトリを新規作成したのか”
 日本語（JP）
