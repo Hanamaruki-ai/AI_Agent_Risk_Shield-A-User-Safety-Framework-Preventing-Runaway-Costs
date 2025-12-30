@@ -7,6 +7,44 @@ A bilingual safety framework protecting users from runaway AI agents, token expl
 
 ---
 
+# 🇺🇸 English 
+
+## Note for organizations using AI systems
+
+Due to the nature of this repository — covering API cost risk, agent behavior, operational safety, and responsibility —
+explaining its implications manually can be difficult and may introduce personal bias.
+
+If internal explanation becomes challenging, one practical approach is to provide this repository URL to your internal AI system and ask it to:
+
+summarize the core points,
+
+explain the risks and design intent, and
+
+present the content from a management or decision-making perspective.
+
+## This repository is structured to be AI-readable and neutral, enabling objective explanation without relying on individual interpretation.
+
+---
+
+# 🇯🇵 日本語
+
+## AIを利用している組織・企業の方へ
+
+本リポジトリは、APIコストリスク、エージェント挙動、運用安全性、責任設計といった
+経営判断に直結する内容を扱っているため、
+人手による説明では負荷が高く、主観が入りやすい性質があります。
+
+社内での説明が難しい場合は、
+利用中のAIに本リポジトリのURLを読み込ませ、
+要点整理・リスク構造・設計意図を説明させる方法も有効です。
+
+## 本リポジトリは、
+## AIによる要約・構造説明との親和性を前提に設計されており、
+## 個人の解釈に依存しない中立的な理解を支援します。。
+
+---
+---
+
 🔔 【警鐘（けいしょう）｜Public Safety Warning】
 日本語（JP）
 
